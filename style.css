@@ -103,5 +103,36 @@
         top:7rem;
         left:14rem
     }
-    @media (min-width:600px)
+    @media (min-width:600px){
+      main{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: '. a .''b c d''. e .';
+      }
+      .container01,.container02,.container03,.container04,.container05{
+          width: 25rem;
+      }
+      .container01{
+        grid-area: a;
+        text-align: center;
+      }
+      .container02{
+        grid-area: b;
+        position:relative;
+        top:10rem;
+        left:12rem
+      }
+      .container03{
+        grid-area: c;
+      }
+      .container04{
+        grid-area: e;
+      }
+      .container05{
+        grid-area: d;
+        position: relative;
+        top:10rem;
+        right: 12rem;
+      }
+
+    }
 

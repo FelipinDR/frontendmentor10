@@ -103,37 +103,5 @@
         top:7rem;
         left:14rem
     }
-    @media (min-width:600px){
-        main{
-            display: flex;
-        }
-        .container01{
-            position:relative;
-            bottom:18rem;
-            width:40rem;
-            left:40rem;
-            text-align: center;
-            padding: 6rem;
-        }
-        .container02{
-          position: relative;
-          top: 10rem;
-          right: 10rem;
-        }
-        .container03{
-          position:relative;
-          right: 10rem;
-
-        }
-        .container04{
-          position: relative;
-          right: 29rem;
-          top:20rem
-        }
-        .container05{
-          position:relative;
-          right:29rem;
-          top:10rem
-        }
-    }
+    @media (min-width:600px)
 
